@@ -22,5 +22,10 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	}	
+	}
+	
+	
+	void OnGUI() {
+		GUI.Label(new Rect(10,10,120,20), "Timer");
+	}
 }
