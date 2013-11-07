@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	//This wasn't here before
 	}
 	
 	void OnGUI () {
