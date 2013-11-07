@@ -15,13 +15,10 @@ public class StartController : MonoBehaviour {
 	
 	void OnGUI () {
 		// Make a background box
-		GUI.Box(new Rect(50,50,500,450), "Start Menu");
+		GUI.Box(new Rect(450,50,400,350), "Start Menu");
 		// Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
-		if(GUI.Button(new Rect(80,160,320,80), "Play Game")) {
+		if(GUI.Button(new Rect(500,160,320,80), "Play Game")) {
 			Application.LoadLevel(1);
-		}
-		if(GUI.Button (new Rect(80,320,320,80), "Instructions")) {
-			Application.LoadLevel (2);
 		}
 	}
 	
